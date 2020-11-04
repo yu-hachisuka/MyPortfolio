@@ -147,13 +147,13 @@ main nav li:hover{
     margin: 0 auto;
 }
 .skill th,tr{
-    font-size: 15px;
-    padding: 30px;
+    font-size: 20px;
+    padding: 20px;
     font-weight: bold;
     text-align: center;
 }
 .works-sample p{
-    font-size: 20px;
+    font-size: 25px;
     display: block;
     width: 80px;
     height: 30px;
@@ -209,19 +209,44 @@ footer p{
 }
 @media screen and (max-width: 959px) {
     /* 959px以下に適用されるCSS（タブレット用） */
-    .wrapper{
-        width: 959px
-    };
+ 
     header{
         background-image: url(images/header-img.jpg);
         width: 960px;
         text-align:left; 
     }
-    header h1{
-        font-size: 75px;
+    .wrapper {
+        width: 960px;
+        margin: 0 auto;
     }
-}
+    header h1{
+        font-size: 90px;
+    }
+    .profile-text p {
+        font-size: 25px;
+    }
+    .skill h3{
+        font-size: 35px;
+    }
+    .skill p{
+        font-size: 25px;
+    }
+    .skill th, tr {
+        font-size: 25px;
+        padding: 18px;
+    }
+    .info p {
+        font-size: 25px;
+    }
+} 
 @media screen and (max-width: 480px) {
     /* 480px以下に適用されるCSS（スマホ用） */
-
+    /* header{
+        background-image: url(images/header-img.jpg);
+        width: 480px;
+        text-align:left; 
+    } */
+    main nav li{
+        font-size: 30px;
+    }
 } 
